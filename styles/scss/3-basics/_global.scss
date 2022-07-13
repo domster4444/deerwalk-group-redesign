@@ -1,0 +1,92 @@
+.fancy-border {
+  text-align: center;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(
+      to right,
+      $primary_blue 10%,
+      $primary_green_light 10%,
+      $primary_orange_light 20%,
+      $secondary_black_light 20%,
+      $primary_orange 30%,
+      $header_border_red 30%,
+      $primary_blue_light 40%,
+      $header_border_lime 40%,
+      $header_border_purple 50%
+    )
+    5;
+}
+
+.purple-variant {
+  background: $header_border_purple;
+  &--color {
+    color: $header_border_purple;
+  }
+}
+.green-variant {
+  background: $green-variant;
+  &--color {
+    color: $green-variant;
+  }
+}
+.orange-variant {
+  background: $orange-variant;
+  &--color {
+    color: $orange-variant;
+  }
+}
+.lime-variant {
+  background: $header_border_lime;
+  &--color {
+    color: $header_border_lime;
+  }
+}
+.sky-variant {
+  background: $sky-variant;
+  &--color {
+    color: $sky-variant;
+  }
+}
+
+.grey-variant {
+  background: $grey-variant;
+  &--color {
+    color: $grey-variant;
+  }
+}
+.yellow-variant {
+  background: $yellow-variant;
+  &--color {
+    color: $yellow-variant;
+  }
+}
+
+.blue-variant {
+  background: $blue-variant;
+  &--color {
+    color: $blue-variant;
+  }
+}
+.brown-variant {
+  background: $brown-variant;
+  &--color {
+    color: $brown-variant;
+  }
+}
+.red-variant {
+  background: $header_border_red;
+  &--color {
+    color: $header_border_red;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container-block {
+  width: 80%;
+  @include media('<=1275px') {
+    width: 100%;
+  }
+}

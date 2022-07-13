@@ -1,0 +1,26 @@
+//fonts user in deerwalk group -karla_base
+// Open Sans
+.karla_base {
+  font-family: 'Karla', sans-serif;
+}
+
+.roboto_base {
+  font-family: 'Roboto', sans-serif;
+}
+.source_serif_pro_base {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.karla_regular {
+  @extend .karla_base;
+  font-weight: 400;
+}
+
+.serif_pro_bold {
+  @extend .source_serif_pro_base;
+  font-weight: 400;
+}
+.roboto_light {
+  @extend .roboto_base;
+  font-weight: 300;
+}
